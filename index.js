@@ -8,6 +8,12 @@
  * 4. funFact       -> assign it a value of some fun fact about yourself
  * 5. image         -> assign it a value of a url of your image or ant image that represents you online
  */
+let fullName = "Mohammad Al-Hamdan";
+let yearOfBirth = "1994";
+let Hobby = "Coding";
+let funFact = "evry time i play chess i fall to sleep after one game";
+let image = "/image/me.jpg";
+
 
 // Part 1 answer 👇🏻 ...
 
@@ -29,9 +35,11 @@
  * You can uncomment a line by removing the // at the start
  */
 
-// const fullNameString = `My name is ${}`;
-// const yearOfBirthString =
-// const hobbyString =
+const fullNameString = `My name is ${fullName}`;
+ const yearOfBirthString = 2021-yearOfBirth;
+const hobbyString =`My hobby is${Hobby}`;
+
+//const fullNameString = "My name is"
 
 
 
@@ -45,14 +53,18 @@ let stars = 0;
 
 function incrementBy1() {
   // Increment stars by 1 👇🏻
+  stars++;
 }
 function decrementBy1() {
   // decrement stars by 1 👇🏻
+  stars--;
 }
 
 function incrementBy2() {
   // Increment stars by 2 👇🏻
+  stars+=2
 }
 function decrementBy2() {
   // decrement stars by 2 👇🏻
+  stars-=2;
 }
